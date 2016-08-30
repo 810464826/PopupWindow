@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="120dp" >
+
+    <com.work.chenxb.mynetdemo.image.SmartImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:singleLine="true"
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@id/iv_logo"
+        android:text="新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题"
+        android:textSize="20sp" />
+
+    <TextView
+        android:lines="2"
+        android:id="@+id/tv_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/iv_logo"
+        android:text="新闻的描述新闻的描述新闻的描述新闻的描述新闻的描述新闻的描述新闻的描述"
+        android:textColor="#999999"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="123跟帖"
+        android:textColor="#999999"
+        android:textSize="12sp" />
+
+</RelativeLayout>

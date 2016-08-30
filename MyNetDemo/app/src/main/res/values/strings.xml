@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyNetDemo</string>
+    <string name="serverip">1</string>
+</resources>
